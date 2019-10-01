@@ -1,0 +1,193 @@
+body {
+    font-family: Arial;
+    color: white; 
+    background-color:#333333;
+  }
+  
+  .block{
+    width:880px;
+    height:570px;
+    margin-left:200px;
+    margin-top:30px;
+    display:flex;
+ }
+
+.left{
+   background-color: #050407;
+   width: 40%;
+   float: left;
+}
+  
+  .right{
+    background-image:url('image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    float: right;
+ }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .para{
+      margin-left: 70px;
+      padding-top: 148px;
+      font-size: medium;
+  }
+
+  .ul{
+      font-size: 9px;
+      color:white;
+  }
+
+  .ul:hover{
+    color:#000;
+
+}
+
+  .signIn{
+      margin-top: 90px;
+      height:5%;
+      margin-left: 55px;
+      padding-top:1px;
+      font-size: x-large;
+  }
+
+
+  .userLabel{
+    height:3%;
+    margin-left: 55px;
+    padding-top: 1px;
+    font-size:small;
+    color:#4f4f51;
+    margin-top: 40px;
+  }
+
+  .userLabel:active{
+    color:#ffffff;
+  }
+
+  .userInput{
+    height:5%;
+    display:flex;
+    border:1px solid #424148;
+    width:60%;
+    margin-left:3.3rem;
+    border-radius: 6px;
+    width: 245px;
+    height: 40px;
+    border-color: #424148;
+  }
+
+  .userInput:{
+    border:1px solid #ffffff;
+  }
+
+  .fa.fa-envelope {
+    padding:0.91rem;
+    font-size: 10px;
+    color:grey;
+  }
+
+  img {
+      padding:0.79rem;
+      font-size: 10px;
+      color:grey;
+      margin-left:-1px;
+    }
+
+  .passwordLabel{
+    height:3%;
+    margin-left: 55px;
+    font-size:small;
+    color:#4f4f51;
+    margin-top: 35px;
+  }
+
+  .passwordInput{
+    height:5%;
+    display:flex;
+    border:1px solid #424148;
+    width:60%;
+    margin-left:3.3rem;
+    border-radius: 6px;
+    width: 245px;
+    height: 40px;
+    border-color: #424148;
+  }
+
+  .forgotPassword{
+    height:5%;
+    margin-left: 55px;
+    font-size:xx-small;
+    margin-top: 25px;
+  }
+
+  a {
+    color:#4f4f51;
+  }
+
+  a:hover {
+    color:#ffffff;
+  }
+
+  .signInButton{
+
+    height:5%;
+    margin-left: 55px;
+    margin-top: 23px;
+
+  }
+
+  .signUp{
+    height:5%;
+    margin-left: 55px;
+    margin-top: 80px;
+    font-size: x-small;
+  }
+
+  input {
+      border: 1px solid white;
+      background-color:transparent;
+      border-radius: 6px;
+      width: 245px;
+      height: 40px;
+      border-color: #424148;
+      border-style:hidden;
+      color:#fff;
+      outline:none;
+  }
+  
+  input[type = "text"]::placeholder {        
+    font-weight: bold;
+    font-size: x-small;
+    margin-left:-3px;
+  }
+  
+  
+  [type = "password"]::placeholder {        
+    font-weight: bold;
+    font-size: x-small;
+    margin-left:-3px;
+  }
+
+  button {
+      color:#ffffff;
+      border-radius: 6px;
+      width: 245px;
+      height: 40px;
+      background-color:#3047fe;
+      border-color: #3047fe;
+      font-size: x-small;
+      font-weight:bold;
+  }
